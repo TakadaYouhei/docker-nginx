@@ -4,3 +4,5 @@ services:
     image: nginx:1.27.3-bookworm
     ports:
       - "8080:80"
+    volumes:
+      - ./data:/usr/share/nginx/html
