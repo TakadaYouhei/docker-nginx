@@ -1,0 +1,6 @@
+# obsolate version: "2"
+services:
+  web:
+    image: nginx:1.27.3-bookworm
+    ports:
+      - "8080:80"
